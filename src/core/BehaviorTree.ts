@@ -130,8 +130,12 @@ export class BehaviorTree{
         return data;
     }
 
+    public createTick() : Tick{
+        return new Tick();
+    }
+    
     public tick( target : object, blackboard : Blackboard) : b3.Status{
-        let tick = new Tick();
+        let tick = this.createTick();
 
         tick.debug = this.debug;
         tick.target = target;
