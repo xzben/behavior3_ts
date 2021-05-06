@@ -1,4 +1,4 @@
-import * as b3 from "../b3"
+import * as b3 from "../b3constant"
 import { Composite } from "../core/Composite"
 import { Tick } from "../core/Tick"
 

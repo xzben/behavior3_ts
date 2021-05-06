@@ -1,4 +1,4 @@
-import * as b3 from "../b3"
+import * as b3 from "../b3constant"
 import {BaseNode} from "../core/BaseNode"
 
 export abstract class Condition extends BaseNode{

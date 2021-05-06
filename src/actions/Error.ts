@@ -1,4 +1,4 @@
-import { Status } from "../b3";
+import { Status } from "../b3constant";
 import { Action } from "../core/Action"
 import { Tick } from "../core/Tick";
 
