@@ -28,7 +28,7 @@ export abstract class BaseNode{
         this._enter(tick);
 
         if(!tick.blackborad.get("isOpen", tick.tree.id, this.id)){
-            this.open(tick);
+            this._open(tick);
         }
 
         let status = this._tick(tick);

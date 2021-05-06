@@ -1,8 +1,10 @@
+import { Blackboard } from "./Blackboard";
+
 export class Tick{
     public tree : any = null;
     public debug : any = null;
     public target : any = null;
-    public blackborad : any = null;
+    public blackborad : Blackboard = null!;
     public _openNodes : any[] = [];
     public _nodeCount = 0;
 
